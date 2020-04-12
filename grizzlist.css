@@ -1,0 +1,218 @@
+body{
+    text-align: center;
+    background-color: #988248;
+}
+
+/* headings */
+
+h1{
+    font-family: impact;
+    font-size: 40px;
+    color: #B59A57;
+}
+
+h2{
+    font-size: 20px;
+    color: #B59A57;
+    font-family: impact;
+    
+}
+/*paragraph */
+p{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    font-family: Arial;
+}
+
+/* create and login background box */
+/* contact page */
+div#index{
+    background-color: #ffff;
+    border-radius: 10px;
+    border: 6px solid #30190E;
+    height: 310px;
+    width: 650px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial;
+    align-content: center;
+    vertical-align: center;
+    margin: auto;
+}
+
+div#account{
+    background-color: #fff;
+    border-radius: 10px;
+    border: 5px solid #30190E;
+    height: 300px;
+    width: 650px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial;
+    align-content: center;
+    vertical-align: center;
+    top: 10px;
+    margin: auto;
+}
+
+
+/*contact show */
+div#contactshow{
+    background-color: #fff;
+    border-radius: 10px;
+    border: 5px solid #30190E;
+    height: auto;
+    width: 650px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial;
+    top: 10px;
+    margin: auto;
+    padding: 10px;
+}
+ /* table */
+table {
+    margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* table column and table row */
+td, tr {
+    padding: 7px;
+}
+
+/* table heading */
+th{
+    background-color: #30190E;
+    color: #ffff;
+    border-collapse: collapse;
+}
+
+/* edit page */
+div#edit{
+    background-color: #fff;
+    border-radius: 10px;
+    border: 5px solid #30190E;
+    height: 440px;
+    width: 650px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial;
+    align-content: center;
+    vertical-align: center;
+    top: 10px;
+    margin: auto;
+}
+
+/* add contact */
+div#add{
+    background-color: #fff;
+    border-radius: 10px;
+    border: 5px solid #30190E;
+    height: auto;
+    width: 600px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial;
+    align-content: center;
+    vertical-align: center;
+    margin: auto;
+}
+
+/* delete contact */
+
+div#delete{
+    background-color: #fff;
+    border-radius: 10px;
+    border: 5px solid #30190E;
+    height: 360px;
+    width: 600px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial;
+    align-content: center;
+    vertical-align: center;
+    margin: auto;
+}
+
+/* placeholders for login/create account */
+input:placeholder-shown{
+    width: 170px;
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid #30190E;
+    font-size: 20px;
+
+}
+/* when typing in placeholder */
+input{
+    width: 170px;
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid #30190E;
+    font-size: 20px;
+}
+
+
+/* changing the login button */
+input[name=login]{
+    width: 170px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #30190E;
+    color: #988248;
+}
+
+/* changing the register button for creating an account */
+input[name=register]{
+    width: 170px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #30190E;
+    color: #988248;
+}
+
+/* changing the submit button for adding a contact */
+input[type=submit]{
+    width: 170px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #30190E;
+    color: #988248;
+}
+
+/*reset contact form */
+input[type=reset]{
+    width: 170px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #30190E;
+    color: #988248;
+}
+
+
+/* logout button */
+div#logout{
+    font-size: 15px;
+    font-family: arial;
+    font-weight: bold;
+    color: black;
+    
+}
+
+
+/* footer */
+footer{
+    position: fixed;
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-family: Arial; 
+    bottom: 0;
+}

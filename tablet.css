@@ -1,0 +1,59 @@
+/* gives some whitespace on either side of the display */
+body { width: 96%; }
+
+header{
+    float: left;
+    margin-left: -5px;
+    width: 90%;
+}
+
+nav#menulinks{
+    float: left;
+    margin-left: 60px;
+    width: 90%;
+}
+
+
+/* contact us and log in */
+div#index{
+    float: left;
+    width: 90%;
+    margin-left: 20px;
+}
+
+/* creating a account */
+div#account{
+    float: left;
+    width: 90%;
+    margin-left: 20px;
+}
+
+/* contact show */
+div#contactshow{
+    float: left;
+    width: 90%;
+    margin-left: 20px;
+}
+
+
+/* edit page */
+div#edit{
+    float: left;
+    width: 90%;
+    margin-left: 20px;
+}
+
+/* adding */
+div#add{
+    float: left;
+    width: 90%;
+    margin-left: 20px;
+}
+
+/* deleting*/
+div#delete{
+    float: left;
+    width: 90%;
+    margin-left: 20px;
+}
+
